@@ -19,7 +19,6 @@ cp -R ../etherdelta.github.io/* etherdelta
 git commit -m "Imported from https://github.com/etherdelta/etherdelta.github.io/tree/$(cd ../../etherdelta.github.io; git rev-parse --short HEAD)"
 ```
 
-```
 
 Remove the redirect to etherdelta.com by overwriting index.html with index_com.html
 ```
