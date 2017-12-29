@@ -25,7 +25,7 @@ Remove the redirect to etherdelta.com by overwriting index.html with index_com.h
 cp etherdelta/index_com.html etherdelta/index.html
 ```
 
-Make sure all asset links are relative, absolute
+Make sure all asset links are relative, not absolute
 ```
 sed -i -- 's/script src="\//script src="/g' etherdelta/*.html; rm etherdelta/*.html--
 sed -i -- 's/link href="\//link href="/g' etherdelta/*.html; rm etherdelta/*.html--
